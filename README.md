@@ -53,3 +53,7 @@ library(DisplayHiCRep)
   -- for diagonal group, use `get.scc` in HiCRep to calculate its SCC
   
   -- for off-diagonal group, use `cor` and pick option: Pearson correlation to get its correlations.
+
+Figure1. `DisplayHiCRep` data processing
+                          
+![Figure1. `DisplayHiCRep` data processing](https://github.com/TankKuma96/DisplayHiCRep/blob/master/vignettes/new_dp.png)
