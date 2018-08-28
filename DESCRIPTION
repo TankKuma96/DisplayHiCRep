@@ -1,0 +1,21 @@
+Package: DisplayHiCRep
+Title: What the Package Does (one line, title case)
+Version: 0.0.0.9000
+Authors@R: person("Tiankai", "Xie", email = "xtk96kevin@gmail.com", role = c("aut", "cre"))
+Description: Although Hi-C is a powerful technology for studying genome-wide
+        chromatin interactions, it is too expensive. Thus,HiChIP, a more 
+        affordable technology, has been developed. However, there are still 
+        no statistically robust methods to evaluate the reproducibility of 
+        HiChIP data.The current methods for assessing HiChIP data 
+        reproducibility can produce misleading results since the 3D spatial 
+        structure of genome. Our lab's PhD student Tao already create a 
+        method for calculating the reproducibility called 'hicrep'. After 
+        evaluation, we made sure that Hicrep is also workable for HiChIP 
+        data. Thus, we improve it to take more common HiChIP data types 
+        and display those results in heat map. This R package 'DisplayHiCRep' 
+        implements our approach.
+Depends: R (>= 3.4.4)
+Imports: hicrep, dplyr, Matrix, magrittr, readr, tidyverse
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.0.9000
