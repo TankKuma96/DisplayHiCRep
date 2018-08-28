@@ -20,6 +20,14 @@ Feng Yue, Qunhua Li. Genome Research 2017. doi: 10.1101/gr.220640.117.
 
 # Installation
 Download the source package [DisplayHiCRep_0.0.0.9000.tar.gz](https://github.com/TankKuma96/DisplayHiCRep/blob/master/DisplayHiCRep_0.0.0.9000.tar.gz) from Github.
+
+Or install from R with:
+
+```{r}
+library(devtools)
+install_github("TankKuma96/DisplayHiCRep")
+library(DisplayHiCRep)
+```
  
 
 # Data processing
